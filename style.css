@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    position:relative;
+    
+}
+
+.main{
+    overflow: hidden;
+}
+.page1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page1 .overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.036);
+    position: absolute;
+    top: 0;
+}
+.overlay .nav{
+    width: 100%;
+    height: 6vw;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+.nav .l{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family:sans-serif ;
+
+}
+.l h4{
+    color: #fff;
+    
+}
+.nav .r button{
+    margin:  10px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+
+    
+}
+button{
+    background-color: transparent;
+    border:none;
+}
+.c{
+    background-color: black;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 9px 30px;
+
+}
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.overlay .cen{
+    width: 700px;
+    height: 350px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-weight: 100;
+    /* background-color: aqua; */
+    color: #fff;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+}
+.cen h1{
+    
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.min{
+    margin-top: 25px;
+    width: 220px;
+    height: 60px;
+    background-color:#fff ;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.min h4{
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight: 400;
+
+
+}
+
+ #e{
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 50%;
+
+}
+.cen h3{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.page2{
+    width: 100%;
+    min-height: 80vh;
+    background-color: #fff;
+    display: flex;
+}
+.page2 .l{
+    width: 65%;
+    min-height: 100%;
+    /* background-color: brown; */
+}
+.l h2{
+    font-size: 4vw;
+    padding: 80px 30px ;
+    font-weight: 400;
+}
+.page2 .r{
+    width: 35%;
+    min-height: 80%;
+    /* background-color: gold; */
+
+}
+.r{
+     padding: 80px 70px ;
+}
+.page3{
+    width: 100%;
+   min-height: 100vh;
+   background-color: #fff;
+}
+.page3 h3{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.page3 .box1{
+    width: 100%;
+    /* height: 15vh; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+.box1 h1{
+    font-size: 50px;
+    line-height: 1;
+}
+.box1 h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.box1 i{
+    font-size: 40px; 
+    font-size: 50px;
+}
+.page4{
+    width: 90%;
+    min-height: 100vh;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    display: flex;
+}
+.page4 .l1{
+    width: 50%;
+    height: 100vh;
+    background-color: crimson;
+    border-radius: 10px;
+
+}
+.page4 .l1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+
+}
+.page4 .r1{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+
+}
+.r1 .r2{
+    width: 310px;
+    height: 550px;
+    /* background-color: red; */
+    margin-left: 10vw;
+}
+.r2 h4{
+    padding-top: 2vw;
+}
+.r2 h1{
+    padding-top: 20px;
+    font-size: 4vw;
+    font-weight: 450;
+}
+.r2 h5{
+    padding-top: 12vw;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.r2 p{
+    padding-top: 1vw;
+}
+.r2 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.page5{
+    width: 95%;
+    min-height: 100vh;
+    /* background-color: chocolate; */
+    background-image: url(https://www.datocms-assets.com/105899/1699610679-ep-residental-hero-copy.jpg?fit=max&fm=webp&h=3000&w=2000);
+    background-size: cover;
+    background-position: center;
+    margin: 3vw 3vw;
+    padding-top: 32vw;
+}
+.box2{
+    width: 100%;
+    height: 20vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box2 h1{
+    font-size: 4vw;
+    font-weight: 400;
+    color: #fff;
+}
+.box2 .s2{
+    width: 250px;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vh ;
+    border-radius: 50px;
+}
+.page6{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    padding-top: 2vw;
+    font-size: 5vw;
+    font-weight: 400;
+}
+.page6 .a1{
+    width: 100%;
+    height: 800px;
+    /* background-color: crimson; */
+    /* text-align: center; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+}
+.page6 .box3{
+    width: 320px;
+    height: 440px;
+    background-color:whitesmoke;
+    position: relative;
+    
+}
+.box3 img{
+    width: 200px;
+    margin: 3vw 5vw;
+}
+.box3 .a2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow ;
+    border-radius: 50%;
+    margin: 1vh 42vh;
+    padding: 1vh 2vh;
+
+    
+}
+.a2 i{
+    font-size: 30px;
+    
+}
+.box3 .w1{
+    width: 320px;
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -18%;
+}
+.w1 h4{
+    font-size: 20px;
+}
+.w1 h5{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.496);
+    padding-top: 2vh;
+}
+
+.page7{
+    width: 100%;
+    min-height: 90vh;
+    background-color: white;
+    
+}
+.page7 .d1{
+    width: 100%;
+    height: 35vh;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page7 .d2{
+    width: 100%;
+    height: 55vh;
+    /* background-color: brown; */
+    display: flex;
+}
+.d2 .p3{
+    width: 40%;
+    height: 55vh;
+    /* background-color: aqua; */
+}
+.d2 .p3 p{
+    padding: 15vh 7vh;
+}
+.d2 .p3 button{
+    background-color: black;
+    color: #fff;
+    padding: 1vw 2vw;
+    margin-left: 3vw;
+    border-radius: 50px;
+}
+.d2 .p4{
+    width: 60%;
+    height: 55vh;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+ .p4 .card{
+    width: 30%;
+    height: 30vh;
+    /* background-color: darkmagenta; */
+    /* margin-left: 6vw; */
+}
+.card h3{
+    padding: 3vh 5vh;
+    font-size: 20px;
+}
+.card h4{
+    padding: 1px 30px ;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.354);
+    font-family: sans-serif;
+}
+    
+
+@media (min-width: 600px){
+    .page1{
+    
+        height: 100vh;
+        background-color: aqua;
+        position:relative;
+        overflow: hidden;
+        
+    }
+    
+    .main{
+        overflow: hidden;
+    }
+    .page1 video{
+    
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .overlay .nav{
+    
+        height: 6vw;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        padding: 0 1vw;
+    }
+}
+
+
